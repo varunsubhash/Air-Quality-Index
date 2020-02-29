@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Dec  2 21:34:41 2019
+Created on Mon Dec  9 17:04:41 2019
 
-@author: krish.naik
+@author: Varun.Subhash
 """
 import os
 import time
@@ -34,5 +34,9 @@ if __name__=="__main__":
     retrieve_html()
     stop_time=time.time()
     print("Time taken {}".format(stop_time-start_time))
+        
+    
+
+
         
     
