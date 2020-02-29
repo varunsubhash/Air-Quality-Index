@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 
 def avg_data(year):
@@ -30,7 +31,14 @@ if __name__=="__main__":
     for year in range(2013,2019):
         lst = 'lst'+str(year)
         lst = avg_data(year)
-
-
+        
+ plt.plot(range(0,365),lst2013,label="2013 data")
+ plt.plot(range(0,364),lst2014,label="2014 data")
+ plt.plot(range(0,365),lst2015,label="2015 data")
+ plt.plot(range(0,121),lst2016,label="2016 data")
+ plt.xlabel('Day')
+ plt.ylabel('PM 2.5')
+ plt.legend(loc='upper right')
+ plt.show()
 
 
