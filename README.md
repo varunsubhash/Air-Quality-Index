@@ -20,9 +20,10 @@
 - The dependent feature is the air quality index score.
 - Its obtained from a paid website weathermap.com.
 - It contains data for every hour.
-- We append the PM 2.5 data to the previously collected data.
+- We append the PM 2.5 data to a list.
 - We remove data rows where we have Invalid,No data and pwr fail data.
 - The PM 2.5 column data has data for every hour so we calculate the average value for each day.
+- Now using the html files we web scrapp only the required data from the the web page using Beautiful Soup.
 
 
 
