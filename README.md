@@ -19,7 +19,7 @@
 - The data is then enocded to utf=8 and stored.
 - The dependent feature is the air quality index score.
 - Its obtained from a paid website weathermap.com.
-- It contains data for every hour.
+- It contains data for every hour.We take the average for each day.
 - 
 
 
