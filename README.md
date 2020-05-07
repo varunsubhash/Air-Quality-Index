@@ -71,6 +71,19 @@
   MAE: 45.713945966514466</br>
   MSE: 4068.4996236840434</br>
   RMSE: 63.784791476370316</br>
+  
+- Now we try the Randomn Tree Regressor and  Randomized Serch CV and get the below results.
+
+
+  MAE: 34.50744577625571</br>
+  MSE: 2374.6992260376796</br>
+  RMSE: 48.73088575059641</br>
+  
+-  Now  we try the Xgboost Regressor and  Randomized Serch CV and get the below results
+
+  MAE: 31.900516967250876</br>
+  MSE: 2118.7289338890014</br>
+  RMSE: 46.02965276741724</br>
 
 
 
