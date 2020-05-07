@@ -6,4 +6,5 @@
 
 - In this part the independent features are obtained from en.tutiempo.net. These contain the weather information.
 - In this model data for the city of Banglore is obtained for the period 2013-2018.
-- We obtained the html for the all months in the above mentioned perod using beautiful soup.
+- We obtained the html for the all months in the above mentioned perod using the requests library
+- The data is then enocded to utf=8 and stored.
