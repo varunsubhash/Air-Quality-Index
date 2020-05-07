@@ -56,6 +56,21 @@
   RMSE: 55.29614931144968</br>
  
  - The data is then stored in the pickle file.
+ 
+ - Next we use Lasso Regression.
+ - using Grid Search CV we get the below results.
+ 
+  MAE: 40.15696946997222</br>
+  MSE: 3103.2651026603376</br>
+  RMSE: 55.706957399056876</br>
+  
+- This is not much better.
+
+- Next we try use Decision Tree Regressor and we use Grid Search CV for hyper parameter tunning and we get the below results.
+
+  MAE: 45.713945966514466</br>
+  MSE: 4068.4996236840434</br>
+  RMSE: 63.784791476370316</br>
 
 
 
