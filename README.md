@@ -6,7 +6,7 @@
 
 - In this part the independent features are obtained from en.tutiempo.net. These contain the weather information.
 - Its conatins the below data
-   1 )T= Average temperature.
+   1 )T= Average temperature.</br>
    2 )TM = Maximum temperature.
    3 )Tm = Minimum temperature.
    4 ) SLP = Atmospheric pressure at sea level.
