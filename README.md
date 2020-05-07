@@ -25,6 +25,20 @@
 - The PM 2.5 column data has data for every hour so we calculate the average value for each day.
 - Now using the html files we web scrapp only the required data from the the web page using Beautiful Soup.
 - We remove certain empty columns.
+- All the data is written to the real_data file. This is the final data.
+
+# Data Preparation
+
+- Previously we deletd the empty columns.
+- The independent and the dependent features are split to different variables.
+- We check for null values and remove if any.
+
+# Exploratory Data Analysis
+
+- We use a pair plot to relation between different variables.
+- The correlation function clearly  tells the magnitude of relation between them.
+- A heat map can also di used to show it visually.
+
 
 
 
