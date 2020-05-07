@@ -38,7 +38,24 @@
 - We use a pair plot to relation between different variables.
 - The correlation function clearly  tells the magnitude of relation between them.
 - A heat map can also di used to show it visually.
+- Uisng tree regression we can find the feature importances very easily.
+- By this we can see that Average visibility , Temperature has high negative corelation while Atmospheric pressure at sea level is has    high positive correlation.
 
+# Modelling and Evaluation
+
+- When applying we can see that we get very low scores for linear regression and even after using cross validation the results are not great.
+- We are using 3 metrics
+ 1) Mean Absolute Error.
+ 2) Mean Square Error.
+ 3) Root Mean Square Error.
+ 
+- We get the below results and we should minimize these as much as possible.</br>
+ 
+  MAE: 40.28335537132939</br>
+  MSE: 3057.664128674137</br>
+  RMSE: 55.29614931144968</br>
+ 
+ - The data is then stored in the pickle file.
 
 
 
