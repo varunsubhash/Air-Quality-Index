@@ -24,6 +24,7 @@
 - We remove data rows where we have Invalid,No data and pwr fail data.
 - The PM 2.5 column data has data for every hour so we calculate the average value for each day.
 - Now using the html files we web scrapp only the required data from the the web page using Beautiful Soup.
+- We remove certain empty columns.
 
 
 
