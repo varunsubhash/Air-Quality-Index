@@ -79,11 +79,23 @@
   MSE: 2374.6992260376796</br>
   RMSE: 48.73088575059641</br>
   
--  Now  we try the Xgboost Regressor and  Randomized Serch CV and get the below results
+-  Now  we try the Xgboost Regressor and  Randomized Serch CV and get the below results</br>
 
-  MAE: 31.900516967250876</br>
-  MSE: 2118.7289338890014</br>
-  RMSE: 46.02965276741724</br>
+   MAE: 31.900516967250876</br>
+   MSE: 2118.7289338890014</br>
+   RMSE: 46.02965276741724</br>
 
+- Now we use the Artificial Neural Network and using the below parametrs we get the best result in all of the models.
 
+- 3 hidden layers are used.
+- Relu is used as the actiavtion function.
+- Adam optimizer is used.
+- Mean Aboslute error is used as the loss function.
+- Epochs = 100 and batch size is 10.
+
+  MAE: 25.245581808943093</br>
+  MSE: 1681.8142776645072</br>
+  RMSE: 41.009929013161035</br>
+  
+- ANN gives the best model followed by Randomn Forest.
 
