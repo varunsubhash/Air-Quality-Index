@@ -60,9 +60,9 @@
  - Next we use Lasso Regression.
  - using Grid Search CV we get the below results.
  
-  MAE: 40.15696946997222</br>
-  MSE: 3103.2651026603376</br>
-  RMSE: 55.706957399056876</br>
+   MAE: 40.15696946997222</br>
+   MSE: 3103.2651026603376</br>
+   RMSE: 55.706957399056876</br>
   
 - This is not much better.
 
